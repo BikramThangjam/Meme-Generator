@@ -1,7 +1,14 @@
 .App{
     max-width: 600px;
-    max-height: 90vh;
+    height: auto;
     margin: auto;
-    box-shadow: 2px 7px 8px 6px rgba(0,0,0,0.64);
+    box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.64);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .App {
+      max-width: 100%;
+      box-shadow: none;
+    }
 }

@@ -49,8 +49,8 @@ const Meme = () =>{
     return (
         <main>
             <div className="form">
-                <input type="text" name="topText" value ={meme.topText} className="form-input" placeholder="Top Text" onChange={handleChange}/>
-                <input type="text" name="bottomText" value={meme.bottomText} className="form-input"placeholder="Bottom Text" onChange={handleChange}/>
+                <input type="text" name="topText" value ={meme.topText} className="form-input form-input1" placeholder="Top Text" onChange={handleChange}/>
+                <input type="text" name="bottomText" value={meme.bottomText} className="form-input form-input2"placeholder="Bottom Text" onChange={handleChange}/>
                 <button className="form-btn" onClick={getMemeImage}>Get a new meme image  🖼</button>
             </div>
             <div className="meme">

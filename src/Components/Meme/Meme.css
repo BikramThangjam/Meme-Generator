@@ -1,10 +1,13 @@
+
 main{
     padding: 50px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
 }
-
 .form{
-    display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 19px;
 }
 
@@ -13,7 +16,23 @@ main{
     border: 1px solid #D5D4D8;
     border-radius: 5px;
     text-indent: 10px;
-    outline: none;  
+    outline: none; 
+    padding: 10px; 
+    font-size: 18px;
+}
+
+.form-input1{
+    flex: 40%;
+}
+.form-input2{
+    flex: 40%;
+}
+.form-btn{
+    flex: 100%;
+}
+
+.form-input:focus{
+    border: 1px solid rgb(99, 4, 102);
 }
 
 .form-btn{
@@ -32,7 +51,6 @@ main{
     transition: 0.3s;
     
 }
-
 .form-btn:hover{
     opacity: 1;
     transform: scale();
@@ -40,13 +58,14 @@ main{
 
 .meme{
     position: relative;
+    
 }
 
 .meme-img{
-    width: 100%;
-    margin: 30px 0;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
 }
+
 .meme-text{
     position: absolute;
     color: white;
@@ -70,6 +89,7 @@ main{
         -2px 0 0 #000,
         2px 2px 5px #000;
 }
+
 .top{
     top: 0;
 }

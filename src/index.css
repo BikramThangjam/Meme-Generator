@@ -6,6 +6,7 @@ body {
   font-family: "Karla", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: rgb(235, 235, 235);
 }
 
 code {
@@ -15,4 +16,10 @@ code {
 
 #root{
   padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #root{
+    padding: 0;
+  }
 }
