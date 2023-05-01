@@ -101,4 +101,7 @@ main{
     .meme-text{
         margin: 20px 0;
     }
+    main{
+        margin-bottom: 20px;
+    }
 }
