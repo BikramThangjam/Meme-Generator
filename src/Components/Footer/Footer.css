@@ -6,6 +6,16 @@
     color: white;
     padding: 15px;
     justify-content: center;
-      
+    
 }
+
+@media only screen and (max-width: 600px) {
+    .pos-fixed{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
 
